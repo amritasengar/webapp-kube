@@ -1,0 +1,10 @@
+web:
+   image: sagar23/webapp-kube
+   ports:
+      - "80:5000"
+   links:
+      - redis
+redis:
+   image: redis:latest
+   container_name: redis
+
