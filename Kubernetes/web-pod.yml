@@ -7,8 +7,12 @@ metadata:
      app: demo
 spec:
    containers:
-      - name: web
-        image: sagar23/webapp-kube
+      - 
+        env:
+           - name: REDIS_HOST
+             value: "redis-svc.default.svc.cluster.local"
+        name: web
+        image: sagar23/webapp-kube:latest
         ports:
          - containerPort: 5000
            name: http
