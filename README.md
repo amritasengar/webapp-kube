@@ -1,6 +1,6 @@
-# kubernetes-101
+# kubernetes-basics 
 
-The following code can used to deploy a python app which has redis as backend. These service can be executed using Docker nad Kubernetes. PFB the steps for the same.
+The following code can used to deploy a python app which has redis as backend. These service can be executed using Docker and Kubernetes. PFB the steps for the same.
 
 1. Docker (Go to Docker folder)
 

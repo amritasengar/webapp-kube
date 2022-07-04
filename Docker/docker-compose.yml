@@ -1,5 +1,5 @@
 web:
-   image: sagar23/webapp-kube
+   image: amritase/webapp-kube
    ports:
       - "80:5000"
    links:
